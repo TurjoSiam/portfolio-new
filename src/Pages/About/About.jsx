@@ -3,10 +3,9 @@ import { BiSolidUserPin } from "react-icons/bi";
 
 const About = () => {
     return (
-        <section id="about" className="mx-auto bg-white py-16 px-10 animate__animated animate__fadeInUp">
-            <div className="mx-auto w-10/12 flex flex-col items-center">
-                <h2 className="text-4xl w-full mx-auto font-bold underline flex items-center gap-2 text-teal-900"><BiSolidUserPin /> About me</h2>
-                <div className="mt-8 bg-[#eff1ec] dark:bg-gray-800 shadow-lg rounded-2xl p-8">
+        <div className="mx-auto bg-white flex flex-col items-center py-16 px-10 animate__animated animate__fadeInUp" id="aboutMe">
+                <h2 className="text-4xl font-bold underline flex items-center gap-2 text-teal-900 mb-5"><BiSolidUserPin /> About me</h2>
+                <div className="w-10/12 bg-[#eff1ec] dark:bg-gray-800 shadow-lg rounded-2xl p-8">
                     <div className="md:ml-8 mt-6 md:mt-0 text-center md:text-left">
                         <h3 className="text-2xl font-semibold text-gray-700 dark:text-white">
                             I'm Siam Mohammed Abdulah
@@ -27,7 +26,6 @@ const About = () => {
                     </div>
                 </div>
             </div>
-        </section>
     );
 };
 

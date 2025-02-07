@@ -5,19 +5,18 @@ import Banner from "../Banner/Banner";
 import ContactMe from "../ContactMe/ContactMe";
 import Footer from "../Footer/Footer";
 import Projects from "../Projects/Projects";
+import Skills from "../Skills/Skills";
 
 
 const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <AboutMe></AboutMe>
             <About></About>
-            <Divider></Divider>
+            <Skills></Skills>
+            <AboutMe></AboutMe>
             <Projects></Projects>
-            <Divider></Divider>
             <ContactMe></ContactMe>
-            <Divider></Divider>
             <Footer></Footer>
         </div>
     );
