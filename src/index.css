@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.photo-frame {
+    clip-path: ellipse(54% 49% at 50% 50%);
+}
+
+.bg-primary {
+    background-color: #51733F;
+}
+
+.bg-secondary {
+    background-color: #B1C0A0;
+}
+
+.btn-main {
+    padding: 10px 20px;
+    background-color: #51733F;
+    color: white;
+    outline: 1px solid #51733F;
+    border-radius: 5px;
+}
+
+@keyframes fadeEffect {
+    0% {
+        background-color: #51733F;
+        color: white;
+    }
+    100% {
+        background-color: #e4e9de;
+        color: black;
+    }
+}
+
+.btn-main:hover {
+    background-color: white;
+    outline: 1px solid #51733F;
+    color: black;
+    animation: fadeEffect 0.5s ease forwards;
+}
