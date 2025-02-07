@@ -1,4 +1,4 @@
-import project3 from "../../assets/project3.png"
+import project3 from "../../assets/project3.jpg"
 
 const Ripple = () => {
     return (

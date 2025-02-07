@@ -1,7 +1,7 @@
 import { MdOutlineReadMore } from "react-icons/md";
-import web1 from "../../assets/web1.png"
-import web2 from "../../assets/web2.png"
-import web3 from "../../assets/web3.png"
+import web1 from "../../assets/web1.jpg"
+import web2 from "../../assets/web2.jpg"
+import web3 from "../../assets/web3.jpg"
 import 'animate.css';
 import { GoProjectSymlink } from 'react-icons/go';
 import { Link } from "react-router-dom";

@@ -1,4 +1,4 @@
-import project2 from "../../assets/project2.png"
+import project2 from "../../assets/project2.jpg"
 
 const MovieSphere = () => {
     return (

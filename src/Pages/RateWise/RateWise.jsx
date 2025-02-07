@@ -1,4 +1,4 @@
-import project1 from "../../assets/project1.png"
+import project1 from "../../assets/project1.jpg"
 
 const RateWise = () => {
     return (
