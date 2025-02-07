@@ -8,6 +8,9 @@ import {
 import Layout from './Pages/Layout/Layout';
 import ErrorPage from './Pages/ErrorPage/ErrorPage';
 import Home from './Pages/Home/Home';
+import RateWise from './Pages/RateWise/RateWise';
+import MovieSphere from './Pages/MovieSphere/MovieSphere';
+import Ripple from './Pages/Ripple/Ripple';
 
 
 const router = createBrowserRouter([
@@ -19,6 +22,18 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>
+      },
+      {
+        path: "/project/ratewise",
+        element: <RateWise></RateWise>
+      },
+      {
+        path: "/project/moviesphere",
+        element: <MovieSphere></MovieSphere>
+      },
+      {
+        path: "/project/ripple",
+        element: <Ripple></Ripple>
       }
     ]
   },

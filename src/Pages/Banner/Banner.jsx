@@ -1,6 +1,7 @@
 import { Typewriter } from "react-simple-typewriter";
 import photo from "../../../src/assets/photo.jpg"
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { MdOutlineFileDownload } from "react-icons/md";
 
 const Banner = () => {
     return (
@@ -18,13 +19,13 @@ const Banner = () => {
                     </Typewriter>"
                 </h2>
                 <p className="text-lg text-gray-600 mb-7">A passionate frontend developer with expertise in creating sleek, modern, and user-friendly web interfaces.</p>
-                <div className="flex items-center text-[#51733F] gap-5 text-2xl">
+                <div className="flex items-center text-[#425d33] gap-5 text-2xl">
                     <a href="https://github.com/TurjoSiam"><FaGithub /></a>
                     <a href="https://www.linkedin.com/in/siam-mohammed-abdulah-0193b4162"><FaLinkedin /></a>
                     <a href="https://x.com/SiamTurjo"><FaTwitter /></a>
                     <a href="https://www.facebook.com/tur.jo.9275"><FaFacebook /></a>
                 </div>
-                <a target="_blank" href="https://drive.google.com/file/d/1yuazgobYn5TjSt_JKCpBQQhJ3mWpKigB/view?usp=drive_link" className="btn-main">Download Resume</a>
+                <a target="_blank" href="https://drive.google.com/file/d/1yuazgobYn5TjSt_JKCpBQQhJ3mWpKigB/view?usp=drive_link" className="btn-main flex items-center gap-2"><MdOutlineFileDownload /> Download Resume</a>
             </div>
         </div>
     );

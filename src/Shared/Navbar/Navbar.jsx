@@ -1,4 +1,5 @@
 
+import { MdOutlineFileDownload } from "react-icons/md";
 import logo from "../../../src/assets/logo.png"
 
 
@@ -46,7 +47,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                <a target="_blank" href="https://drive.google.com/file/d/1yuazgobYn5TjSt_JKCpBQQhJ3mWpKigB/view?usp=drive_link" className="btn-main">Download Resume</a>
+                <a target="_blank" href="https://drive.google.com/file/d/1yuazgobYn5TjSt_JKCpBQQhJ3mWpKigB/view?usp=drive_link" className="btn-main flex items-center gap-2"><MdOutlineFileDownload /> Download Resume</a>
                 </div>
             </div>
         </div>
