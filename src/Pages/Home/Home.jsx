@@ -1,4 +1,5 @@
 import Divider from "../../Shared/Divider/Divider";
+import About from "../About/About";
 import AboutMe from "../AboutMe/AboutMe";
 import Banner from "../Banner/Banner";
 import ContactMe from "../ContactMe/ContactMe";
@@ -11,6 +12,7 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <AboutMe></AboutMe>
+            <About></About>
             <Divider></Divider>
             <Projects></Projects>
             <Divider></Divider>

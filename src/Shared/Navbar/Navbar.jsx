@@ -46,7 +46,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                <a target="_blank" href="https://docs.google.com/document/d/1eTWy8G7k76Buyvzg2_xjPeFhpWa-3KReiKgwYMVmsok/edit?usp=sharing" className="btn-main">Download Resume</a>
+                <a target="_blank" href="https://drive.google.com/file/d/1yuazgobYn5TjSt_JKCpBQQhJ3mWpKigB/view?usp=drive_link" className="btn-main">Download Resume</a>
                 </div>
             </div>
         </div>
