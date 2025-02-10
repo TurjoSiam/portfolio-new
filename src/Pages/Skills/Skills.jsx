@@ -10,9 +10,9 @@ import { TbBrandReact } from "react-icons/tb";
 
 const Skills = () => {
     return (
-        <div className="mx-auto flex flex-col items-center py-16 px-10 animate__animated animate__fadeInUp" id="skills">
+        <div className="mx-auto flex flex-col items-center py-16 md:px-10 animate__animated animate__fadeInUp" id="skills">
             <h2 className="text-4xl mx-auto font-bold underline flex items-center gap-2 text-teal-900 mb-5"><GrTechnology /> Skills</h2>
-            <div className="flex items-center justify-around w-10/12">
+            <div className="flex md:flex-row flex-wrap flex-col gap-5 lg:gap-0 items-center justify-around w-10/12">
                 {/* Frontend */}
                 <div className="bg-white h-[300px] w-[250px] rounded-lg p-10 shadow-md">
                     <div className="flex gap-2 items-center justify-center text-3xl font-bold mb-7">

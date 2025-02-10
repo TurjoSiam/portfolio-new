@@ -5,11 +5,11 @@ import { MdOutlineFileDownload } from "react-icons/md";
 
 const Banner = () => {
     return (
-        <div className="flex flex-col md:flex-row items-center gap-20 mx-auto lg:px-32 pb-14 pt-28">
+        <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-20 mx-auto lg:px-32 pb-14 pt-28">
             <div>
                 <img className="w-72 rounded-xl shadow-md shadow-[#51733F]" src={photo} alt="profile photo" />
             </div>
-            <div className="flex items-start flex-col gap-4">
+            <div className="flex lg:pl-0 pl-10 items-start flex-col gap-4">
                 <h2 className="text-5xl text-teal-900 font-bold">Hello, I'm Siam - Frontend Web Developer</h2>
                 <h2 className="text-3xl text-gray-700 font-bold">"
                     <Typewriter

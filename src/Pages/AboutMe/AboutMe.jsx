@@ -5,10 +5,10 @@ import { MdBuild, MdCastForEducation } from "react-icons/md";
 
 const AboutMe = () => {
     return (
-        <div className="mx-auto bg-white flex flex-col items-center py-16 px-10 animate__animated animate__fadeInUp" id="education">
+        <div className="mx-auto bg-white flex flex-col items-center py-16 md:px-10 animate__animated animate__fadeInUp" id="education">
             <h2 className="text-4xl mx-auto font-bold underline flex items-center gap-2 text-teal-900 mb-5"><MdCastForEducation /> Education/Training</h2>
-            <div className="w-full lg:w-10/12 mx-auto space-y-3">
-                <div className="flex items-center py-4 rounded-lg px-8 bg-[#eff1ec] justify-between">
+            <div className="w-11/12 md:w-full lg:w-10/12 mx-auto space-y-3">
+                <div className="flex items-center py-4 gap-5 md:gap-0 rounded-lg px-5 md:px-8 bg-[#eff1ec] justify-between">
                     <div className="flex items-center gap-4">
                         <VscVscode className="text-4xl" />
                         <div>
