@@ -27,9 +27,9 @@ const Projects = () => {
                             <span className="bg-secondary rounded-full font-bold px-3 py-1 text-sm">node.js</span>
                             <span className="bg-secondary rounded-full font-bold px-3 py-1 text-sm">next auth</span>
                         </div>
-                        <Link to="/project/moviesphere" className="btn-main flex items-center gap-2"><MdOutlineReadMore />View Details</Link>
+                        <Link to="/project/craving" className="btn-main flex items-center gap-2"><MdOutlineReadMore />View Details</Link>
                     </div>
-                    <img className="w-full md:w-1/2 shadow-md rounded-lg" src={web2} alt="web page 1" />
+                    <img className="w-full md:w-1/2 shadow-md rounded-lg" src={web4} alt="web page 1" />
                 </div>
                 {/* project 1 */}
                 <div className="flex flex-col md:flex-row p-5 rounded-xl shadow-custom items-start gap-10">

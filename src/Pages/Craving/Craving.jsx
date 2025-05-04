@@ -7,7 +7,7 @@ const Craving = () => {
             <div className="bg-gradient-to-tr from-sky-100 to-orange-100 w-full mx-auto p-10 rounded-2xl flex flex-col md:flex-row gap-5 pt-32">
 
                 <div>
-                    <img className="w-[1000px] rounded-xl hover:scale-105 transition-all duration-300 ease-in mb-3" src={project5} alt="image" />
+                    <img className="w-[1000px] rounded-xl hover:scale-105 transition-all duration-300 ease-in mb-3" src={project4} alt="image" />
                 </div>
                 <div className="col-span-1 px-7 font-bold space-y-5">
                     <h2 className="text-3xl lg:text-3xl font-bold">Craving – Food Ordering Website</h2>
@@ -22,6 +22,13 @@ const Craving = () => {
                         <span className="bg-secondary rounded-full font-bold px-3 py-1 text-sm">shadcn</span>
                         <span className="bg-secondary rounded-full font-bold px-3 py-1 text-sm">next auth</span>
                     </div>
+                    <h2>My contributions: <span className="font-normal"><ul className="list-disc ml-10">
+                        <li>Created the main project documentation and planned the overall functionality and workflow of the website.</li>
+                        <li>Implemented the complete ordering system, managing both frontend and backend logic.</li>
+                        <li>Handled error resolution, conflict management, and took primary responsibility for project deployment.</li>
+                    </ul>
+                    </span>
+                    </h2>
                     <h2>Challenges faced: <span className="font-normal"><ul className="list-disc ml-10">
                         <li>Difficulties faced exploring new technologies like next.js, typescript.</li>
                         <li>Had to solve numerous errors before deploying in vercel.</li>
@@ -35,8 +42,8 @@ const Craving = () => {
                         <li>Weather based food suggestions.</li>
                     </ul></span></h2>
                     <div className="flex items-center gap-5">
-                        <a className=" text-blue-500 underline" href="craving-pied.vercel.app">Live Demo</a>
-                        <a className=" text-blue-500 underline" href="https://github.com/Shahriarkawsik/Craving">GitHub Repository</a>
+                        <a target="_blank" className="text-blue-500 underline" href="https://craving-pied.vercel.app">Live Demo</a>
+                        <a target="_blank" className="text-blue-500 underline" href="https://github.com/Shahriarkawsik/Craving">GitHub Repository</a>
                     </div>
                 </div>
             </div>
