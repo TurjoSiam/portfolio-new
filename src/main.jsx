@@ -11,6 +11,7 @@ import Home from './Pages/Home/Home';
 import RateWise from './Pages/RateWise/RateWise';
 import MovieSphere from './Pages/MovieSphere/MovieSphere';
 import Ripple from './Pages/Ripple/Ripple';
+import Craving from './Pages/Craving/Craving';
 
 
 const router = createBrowserRouter([
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path: "/project/ripple",
         element: <Ripple></Ripple>
+      },
+      {
+        path: "/project/craving",
+        element: <Craving></Craving>
       }
     ]
   },
