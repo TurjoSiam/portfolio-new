@@ -20,11 +20,12 @@ const Projects = () => {
                         A full-stack food ordering platform featuring cart management, ordering and payment systems and role-based functionality. Advanced filtering and sorting system with location-based restaurant suggestion. Real time order management and introducing donation campaigns.
                         </p>
                         <div className="flex items-center flex-wrap gap-3">
-                            <span className="bg-secondary rounded-full font-bold px-3 py-1 text-sm">react</span>
-                            <span className="bg-secondary rounded-full font-bold px-3 py-1 text-sm">node.js</span>
-                            <span className="bg-secondary rounded-full font-bold px-3 py-1 text-sm">express.js</span>
+                            <span className="bg-secondary rounded-full font-bold px-3 py-1 text-sm">next.js</span>
+                            <span className="bg-secondary rounded-full font-bold px-3 py-1 text-sm">typescript</span>
+                            <span className="bg-secondary rounded-full font-bold px-3 py-1 text-sm">shadcn</span>
                             <span className="bg-secondary rounded-full font-bold px-3 py-1 text-sm">mongoDB</span>
-                            <span className="bg-secondary rounded-full font-bold px-3 py-1 text-sm">tailwind CSS</span>
+                            <span className="bg-secondary rounded-full font-bold px-3 py-1 text-sm">node.js</span>
+                            <span className="bg-secondary rounded-full font-bold px-3 py-1 text-sm">next auth</span>
                         </div>
                         <Link to="/project/moviesphere" className="btn-main flex items-center gap-2"><MdOutlineReadMore />View Details</Link>
                     </div>
