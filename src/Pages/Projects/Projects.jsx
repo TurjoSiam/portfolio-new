@@ -2,6 +2,7 @@ import { MdOutlineReadMore } from "react-icons/md";
 import web1 from "../../assets/web1.jpg"
 import web2 from "../../assets/web2.jpg"
 import web3 from "../../assets/web3.jpg"
+import web4 from "../../assets/web4.jpg"
 import 'animate.css';
 import { GoProjectSymlink } from 'react-icons/go';
 import { Link } from "react-router-dom";
@@ -11,6 +12,24 @@ const Projects = () => {
         <div className="mx-auto flex flex-col items-center py-16 px-10 animate__animated animate__fadeInUp" id="projects">
             <h2 className="text-4xl mx-auto font-bold underline flex items-center gap-2 text-teal-900 mb-10"><GoProjectSymlink /> Projects</h2>
             <div className='w-full lg:w-10/12 mx-auto space-y-10'>
+                {/* group project */}
+                <div className="flex flex-col-reverse md:flex-row p-5 rounded-xl shadow-custom items-start gap-10">
+                    <div className="w-full md:w-1/2 flex flex-col gap-5 items-end">
+                        <h2 className="text-2xl font-bold underline">Craving - Food Ordering Website </h2>
+                        <p className="text-gray-700 text-right">
+                        A full-stack food ordering platform featuring cart management, ordering and payment systems and role-based functionality. Advanced filtering and sorting system with location-based restaurant suggestion. Real time order management and introducing donation campaigns.
+                        </p>
+                        <div className="flex items-center flex-wrap gap-3">
+                            <span className="bg-secondary rounded-full font-bold px-3 py-1 text-sm">react</span>
+                            <span className="bg-secondary rounded-full font-bold px-3 py-1 text-sm">node.js</span>
+                            <span className="bg-secondary rounded-full font-bold px-3 py-1 text-sm">express.js</span>
+                            <span className="bg-secondary rounded-full font-bold px-3 py-1 text-sm">mongoDB</span>
+                            <span className="bg-secondary rounded-full font-bold px-3 py-1 text-sm">tailwind CSS</span>
+                        </div>
+                        <Link to="/project/moviesphere" className="btn-main flex items-center gap-2"><MdOutlineReadMore />View Details</Link>
+                    </div>
+                    <img className="w-full md:w-1/2 shadow-md rounded-lg" src={web2} alt="web page 1" />
+                </div>
                 {/* project 1 */}
                 <div className="flex flex-col md:flex-row p-5 rounded-xl shadow-custom items-start gap-10">
                     <img className="w-full md:w-1/2 shadow-md rounded-lg" src={web1} alt="web page 1" />
